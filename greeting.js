@@ -7,5 +7,7 @@ module.exports = function(time) {
     return "Selamat pagi"
   } else if (hours < 15) {
     return "Selamat siang"
+  } else {
+    return "Selamat sore"
   }
 }

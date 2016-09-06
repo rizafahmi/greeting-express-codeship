@@ -2,10 +2,12 @@ module.exports = function(time) {
 
   var hours = time.getHours()
   if (hours < 4 || hours > 18) {
-    return "Selamat malam"
+    return "Good night"
   } else if (hours < 12) {
-    return "Selamat pagi"
+    return "Good morning"
   } else if (hours < 15) {
-    return "Selamat siang"
+    return "Good afternoon"
+  } else {
+    return "Good evening"
   }
 }

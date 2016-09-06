@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/babel-node --presets es2015 ./bin/www"
+    "start": "./node_modules/.bin/babel-node --presets es2015 ./bin/www",
+    "test": "mocha --compilers js:babel-core/register"
   },
   "dependencies": {
     "babel": "^6.5.2",

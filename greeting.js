@@ -1,13 +1,10 @@
 module.exports = function(time) {
-
-  var hours = time.getHours()
+  var hours = time.getHours();
   if (hours < 4 || hours > 18) {
-    return "Good night"
+    return "Good night";
   } else if (hours < 12) {
-    return "Good morning"
+    return "Good morning";
   } else if (hours < 15) {
-    return "Good afternoon"
-  } else {
-    return "Good evening"
+    return "Good afternoon";
   }
-}
+};
